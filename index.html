@@ -1,18 +1,54 @@
 <!DOCTYPE html>
-    <html lang="de">
-    <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nahw�rmenetz - Kemnitz</title><link rel="stylesheet" href="css/style.css"></head>
-    <body>
-    <header><h1>Nahw�rmenetz - Kemnitz</h1>
-    <nav><ul>
-    <li><a href="index.html">Start</a></li>
-    <li><a href="dokumente.html">Dokumente</a></li>
-    <li><a href="newsletter.html">Newsletter</a></li>
-    <li><a href="kontakt.html">Kontakt</a></li>
-    </ul></nav></header>
-    <main><section>
-    <h2>Willkommen beim Nahw�rmeprojekt in Kemnitz</h2>
-    <p>Gemeinsam f�r nachhaltige W�rme in unserer Dorfgemeinschaft.</p>
-    </section></main>
-    <footer><p>&copy; 2025 Nahw�rmenetz - Kemnitz</p></footer>
-    </body></html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahwärmenetz - Kemnitz</title>
+    <!-- Google Fonts für moderne Schriftarten -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Eigene Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero-Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Gemeinsam für eine nachhaltige Zukunft</h1>
+            <p>Werden Sie Teil des Nahwärmenetzes in Kemnitz.</p>
+            <a href="#newsletter" class="cta-btn">Jetzt mitmachen</a>
+        </div>
+    </section>
+
+    <!-- Über uns -->
+    <section id="about" class="about">
+        <h2>Über das Nahwärmenetz</h2>
+        <p>Hier kannst du Informationen über das Nahwärmenetz und die Vorteile für die Dorfgemeinschaft einfügen.</p>
+    </section>
+
+    <!-- Newsletter-Sektion -->
+    <section id="newsletter" class="newsletter">
+        <h2>Bleiben Sie auf dem Laufenden!</h2>
+        <form action="mailto:waerme@nxcom.de" method="POST" enctype="text/plain">
+            <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+            <button type="submit">Abonnieren</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Nahwärmenetz Kemnitz</p>
+    </footer>
+</body>
+</html>
