@@ -20,22 +20,25 @@
     </div>
   </header>
 
-  <main class="max-w-4xl mx-auto p-6">
-    <h2 class="text-3xl font-semibold mb-4">Projekt Nahwärmenetz Kemnitz</h2>
-    <p class="text-lg mb-4">Das Nahwärmenetz Kemnitz ist ein gemeinschaftliches Energieprojekt, das darauf abzielt, Haushalte und öffentliche Gebäude mit nachhaltig erzeugter Wärme zu versorgen. Durch den Einsatz regenerativer Energiequellen wie Biomasse oder Solarthermie soll die Abhängigkeit von fossilen Brennstoffen reduziert werden.</p>
+  <main class="max-w-2xl mx-auto p-6">
+    <h2 class="text-3xl font-semibold mb-4">Unser Projekt: Nahwärmenetz Kemnitz</h2>
+    <p class="text-lg mb-4">Das Projekt Nahwärmenetz Kemnitz verfolgt das Ziel, eine nachhaltige, regionale und umweltfreundliche Wärmeversorgung für unsere Gemeinde aufzubauen. Mit Hilfe moderner Technik und erneuerbarer Energien möchten wir gemeinsam eine bezahlbare Alternative zur Öl- und Gasheizung schaffen.</p>
 
-    <h3 class="text-2xl font-semibold mt-6 mb-2">Projektziele</h3>
-    <ul class="list-disc list-inside text-lg mb-4">
-      <li>Lokale, umweltfreundliche Wärmeversorgung</li>
-      <li>Stärkung der Energieunabhängigkeit der Region</li>
-      <li>Langfristige Kostensicherheit für Verbraucher</li>
-      <li>Reduzierung des CO₂-Ausstoßes</li>
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Ziele</h3>
+    <ul class="list-disc list-inside text-lg">
+      <li>Reduktion von CO₂-Emissionen</li>
+      <li>Versorgungssicherheit durch regionale Energiequellen</li>
+      <li>Langfristige Kostensicherheit für Haushalte</li>
     </ul>
 
-    <h3 class="text-2xl font-semibold mt-6 mb-2">Aktueller Stand</h3>
-    <p class="text-lg mb-4">Derzeit befinden wir uns in der Planungsphase. Erste Informationsveranstaltungen haben stattgefunden, und die Rückmeldungen aus der Gemeinde sind durchweg positiv. Die technische Machbarkeit wird aktuell geprüft.</p>
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Nächste Schritte</h3>
+    <ul class="list-disc list-inside text-lg">
+      <li>Bedarfserhebung und Interessenbekundung</li>
+      <li>Planung der technischen Umsetzung</li>
+      <li>Informationsveranstaltungen für Bürgerinnen und Bürger</li>
+    </ul>
 
-    <img src="https://via.placeholder.com/800x400?text=Projektstand+Kemnitz" alt="Projektstand Nahwärme" class="rounded-xl shadow-md">
+    <img src="https://source.unsplash.com/800x400/?energy,renewable" alt="Nachhaltige Energie" class="my-6 rounded shadow">
   </main>
 
   <footer class="bg-gray-100 text-center text-sm text-gray-600 p-4 mt-10">
