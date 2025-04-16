@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:Abgabe der Genossenschaftsanteile
+DTSTART;TZID=Europe/Berlin:20250611T130000
+DTEND;TZID=Europe/Berlin:20250611T140000
+DESCRIPTION:Letzter Termin zur Abgabe der Genossenschaftsanteile (Einzahlung des Gründungskapitals)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Infoveranstaltung Nahwärmenetz
+DTSTART;TZID=Europe/Berlin:20250617T180000
+DTEND;TZID=Europe/Berlin:20250617T200000
+DESCRIPTION:Infoveranstaltung zur weiteren Planung des Nahwärmenetzes
+END:VEVENT
+END:VCALENDAR
