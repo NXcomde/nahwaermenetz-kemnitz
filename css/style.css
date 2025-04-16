@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background: #f4f4f4; color: #333; margin: 0; padding: 0; }
+                        header { background: #005d4d; color: white; padding: 1em; }
+                                    nav ul { list-style: none; display: flex; gap: 1em; }
+                                    nav a { color: white; text-decoration: none; }
+                                    main { padding: 2em; } footer { background: #ccc; text-align: center; padding: 1em; }
+                                                form { padding: 2em; } input, textarea, button { margin-top: 0.5em; margin-bottom: 1em; width: 100%; max-width: 400px; }
