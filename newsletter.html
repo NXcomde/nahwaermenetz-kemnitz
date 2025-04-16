@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-            <html lang="de">
-            <head><meta charset="UTF-8"><title>Newsletter</title><link rel="stylesheet" href="css/style.css"></head>
-            <body>
-            <h2>Newsletter Anmeldung</h2>
-            <form action="https://waerme-kemnitz.de/scripts/newsletter.php" method="post">
-            <label for="email">E-Mail-Adresse:</label>
-            <input type="email" id="email" name="email" required>
-            <button type="submit">Anmelden</button>
-            </form>
-            </body></html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nahwärmenetz Kemnitz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+  <header class="bg-green-700 text-white p-4">
+    <div class="max-w-4xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Nahwärmenetz Kemnitz</h1>
+      <nav class="space-x-4 text-lg">
+        <a href="index.html" class="hover:underline">Start</a>
+        <a href="projekt.html" class="hover:underline">Projekt</a>
+        <a href="dokumente.html" class="hover:underline">Dokumente</a>
+        <a href="newsletter.html" class="hover:underline">Newsletter</a>
+        <a href="kontakt.html" class="hover:underline">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-2xl mx-auto p-6">
+    <h2 class="text-3xl font-semibold mb-4">Newsletter-Anmeldung</h2>
+    <p class="text-lg mb-6">Melden Sie sich für unseren Newsletter an, um über den aktuellen Stand des Nahwärmenetzes Kemnitz informiert zu bleiben.</p>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="bg-gray-100 p-6 rounded-xl shadow space-y-4">
+      <div>
+        <label for="email" class="block text-lg font-medium mb-1">E-Mail-Adresse*</label>
+        <input type="email" id="email" name="email" required class="w-full p-2 border border-gray-300 rounded">
+      </div>
+      <div>
+        <label for="name" class="block text-lg font-medium mb-1">Name (optional)</label>
+        <input type="text" id="name" name="name" class="w-full p-2 border border-gray-300 rounded">
+      </div>
+      <input type="hidden" name="_subject" value="Neue Newsletter-Anmeldung von Nahwärmenetz-Kemnitz.de">
+      <input type="hidden" name="_replyto" value="waerme@nxcom.de">
+      <button type="submit" class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800">Anmelden</button>
+    </form>
+  </main>
+
+  <footer class="bg-gray-100 text-center text-sm text-gray-600 p-4 mt-10">
+    &copy; 2025 Nahwärmenetz Kemnitz | <a href="kontakt.html" class="underline">Impressum & Datenschutz</a>
+  </footer>
+</body>
+</html>
