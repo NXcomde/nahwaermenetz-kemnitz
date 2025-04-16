@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nahwärmenetz Kemnitz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+  <header class="bg-green-700 text-white p-4">
+    <div class="max-w-4xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Nahwärmenetz Kemnitz</h1>
+      <nav class="space-x-4 text-lg">
+        <a href="index.html" class="hover:underline">Start</a>
+        <a href="projekt.html" class="hover:underline">Projekt</a>
+        <a href="dokumente.html" class="hover:underline">Dokumente</a>
+        <a href="newsletter.html" class="hover:underline">Newsletter</a>
+        <a href="kontakt.html" class="hover:underline">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto p-6">
+    <h2 class="text-3xl font-semibold mb-4">Projekt Nahwärmenetz Kemnitz</h2>
+    <p class="text-lg mb-4">Das Nahwärmenetz Kemnitz ist ein gemeinschaftliches Energieprojekt, das darauf abzielt, Haushalte und öffentliche Gebäude mit nachhaltig erzeugter Wärme zu versorgen. Durch den Einsatz regenerativer Energiequellen wie Biomasse oder Solarthermie soll die Abhängigkeit von fossilen Brennstoffen reduziert werden.</p>
+
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Projektziele</h3>
+    <ul class="list-disc list-inside text-lg mb-4">
+      <li>Lokale, umweltfreundliche Wärmeversorgung</li>
+      <li>Stärkung der Energieunabhängigkeit der Region</li>
+      <li>Langfristige Kostensicherheit für Verbraucher</li>
+      <li>Reduzierung des CO₂-Ausstoßes</li>
+    </ul>
+
+    <h3 class="text-2xl font-semibold mt-6 mb-2">Aktueller Stand</h3>
+    <p class="text-lg mb-4">Derzeit befinden wir uns in der Planungsphase. Erste Informationsveranstaltungen haben stattgefunden, und die Rückmeldungen aus der Gemeinde sind durchweg positiv. Die technische Machbarkeit wird aktuell geprüft.</p>
+
+    <img src="https://via.placeholder.com/800x400?text=Projektstand+Kemnitz" alt="Projektstand Nahwärme" class="rounded-xl shadow-md">
+  </main>
+
+  <footer class="bg-gray-100 text-center text-sm text-gray-600 p-4 mt-10">
+    &copy; 2025 Nahwärmenetz Kemnitz | <a href="kontakt.html" class="underline">Impressum & Datenschutz</a>
+  </footer>
+</body>
+</html>
